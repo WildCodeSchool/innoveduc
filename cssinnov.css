@@ -1,0 +1,61 @@
+.menu a {
+	text-decoration: none;
+	color: #007fff;
+	height: 50px;
+	width: 100px;
+	text-align: center;
+}
+.navbar-brand {
+	padding: 0px;
+}
+
+.logo {
+ height: 100%;
+}
+
+.img1 {
+ margin-left: auto;
+ margin-right: auto;
+ display: block;
+}
+
+body {
+	background-color: #eee;
+}
+
+.page-header {
+	text-align: center;
+}
+
+button.btn.btn-default {
+	margin-top: 8px;
+}
+
+.img-responsive {
+	text-align: center;
+}
+
+.thumbnail img {
+	text-align: center;
+}
+
+.caption {
+	text-align: center;
+}
+
+.contact {
+	background-color: #F8F8F8;
+	height: 60px;
+	text-align: center;
+	margin-top: 20px;
+	width: 100%;
+}
+
+.contact p {
+	margin-top: 20px;
+}
+
+.navbar-right li a {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
