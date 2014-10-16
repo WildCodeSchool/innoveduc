@@ -20,7 +20,7 @@
 }
 
 body {
-	background-color: #eee;
+	background-color: rgba(97, 152, 255, 0.7);
 }
 
 .page-header {
@@ -45,7 +45,7 @@ button.btn.btn-default {
 
 .contact {
 	background-color: #F8F8F8;
-	height: 60px;
+	height: 100px;
 	text-align: center;
 	margin-top: 20px;
 	width: 100%;
@@ -58,4 +58,46 @@ button.btn.btn-default {
 .navbar-right li a {
 	padding-top: 5px;
 	padding-bottom: 5px;
+}
+
+@font-face {
+    font-family: "Champagne";
+    src: url('Champagne.ttf');
+}
+@font-face {
+    font-family: "Champagne italic";
+    font-style: italic;
+    src: url('Champagne Italic.ttf');
+}
+@font-face {
+    font-family: "Champagne bold";
+    font-weight: bold;
+    src: url('Champagne Bold.ttf');
+}
+
+@font-face {
+	font-family: "Champagne bold italic";
+	font-weight: bold, italic;
+	src: url('Champagne Bold Italic.ttf');
+}
+
+/**{
+	font-family: 'Open Sans', sans-serif;
+}*/
+
+.navbar {
+	box-shadow: 1px 1px 5px #CCCCCC;
+}
+
+.logofoot img {
+	border-radius: 100%;
+	height: 50px;
+	width: 50px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Champagne bold";
+}
+.caption {
+	background-color: #E7E7E7;
 }
