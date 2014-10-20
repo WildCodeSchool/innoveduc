@@ -1,10 +1,3 @@
-.menu a {
-	text-decoration: none;
-	color: #007fff;
-	height: 50px;
-	width: 100px;
-	text-align: center;
-}
 .navbar-brand {
 	padding: 0px;
 }
@@ -20,8 +13,7 @@
 }
 
 body {
-	background-color: rgba(97, 152, 255, 0.7);
-	color: #24334C;
+	background-color: rgba(97, 152, 255, 0.2);
 }
 
 .page-header {
@@ -40,20 +32,16 @@ button.btn.btn-default {
 	text-align: center;
 }
 
-.caption {
-	text-align: center;
-}
-
 .contact {
 	background-color: #F8F8F8;
-	height: 100px;
+	height: 60px;
 	text-align: center;
 	margin-top: 20px;
 	width: 100%;
 }
 
 .contact p {
-	margin-top: 20px;
+	margin-top: 15px;
 }
 
 .navbar-right li a {
@@ -82,23 +70,53 @@ button.btn.btn-default {
 	src: url('Champagne Bold Italic.ttf');
 }
 
-/**{
-	font-family: 'Open Sans', sans-serif;
-}*/
-
 .navbar {
 	box-shadow: 1px 1px 5px #CCCCCC;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .logofoot img {
 	border-radius: 100%;
-	height: 50px;
-	width: 50px;
+	height: 30px;
+	width: 30px;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
 }
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: "Champagne bold";
 }
 .caption {
-	background-color: #E7E7E7;
+    background-color: #E7E7E7;
+    text-align: center;
+}
+
+.social {
+    margin-left: 5px;
+}
+
+.contact {
+    background-color: #F8F8F8;
+}
+
+.bouton {
+    border: 1px solid;
+    border-radius: 4px;
+}
+
+#bouton:hover{
+    border: 1px solid rgba(97, 152, 255, 0.7);
+    color: #FF6600;
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+    color: #FF6600;
+}
+
+#bouton {
+    border: 1px solid #FF6600;
+    color: #428BCA;
 }
