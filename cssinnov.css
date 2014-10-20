@@ -84,6 +84,9 @@ button.btn.btn-default {
 p {
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
+}
+
+.caption p{
     text-align: left;
 }
 
