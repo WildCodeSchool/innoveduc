@@ -125,3 +125,8 @@ h1, h2, h3, h4, h5, h6 {
     border: 1px solid #FF6600;
     color: #428BCA;
 }
+
+#sponsors{
+    background-color: white;
+    padding-bottom: 40px;
+}
