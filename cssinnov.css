@@ -27,6 +27,9 @@ button.btn.btn-default {
 
 .img-responsive {
 	text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    display:block;
 }
 
 .thumbnail img {
@@ -75,6 +78,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1:first-letter {
     color: #F36132;
+    text-align: center;
 }
 
 .caption {
