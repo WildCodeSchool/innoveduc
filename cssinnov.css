@@ -27,6 +27,9 @@ button.btn.btn-default {
 
 .img-responsive {
 	text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    display:block;
 }
 
 .thumbnail img {
@@ -121,7 +124,10 @@ h1:first-letter {
     border: 1px solid #F36132;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 811f726df9eb214d42806e293e880444f546e67b
 .apm > li > a {
     padding-top: 17px;
 }
@@ -141,4 +147,7 @@ h1:first-letter {
 .footer {
     background-color: #F8F8F8;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 811f726df9eb214d42806e293e880444f546e67b
