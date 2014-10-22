@@ -123,3 +123,7 @@ h1:first-letter {
 .apm > li > a {
     padding-top: 17px;
 }
+
+.presentation {
+    margin-top: 0;
+}
