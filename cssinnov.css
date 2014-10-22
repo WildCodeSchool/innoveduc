@@ -67,7 +67,7 @@ p {
 }
 
 .caption p{
-    text-align: left;
+    text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -82,6 +82,8 @@ h1:first-letter {
 .caption {
     background-color: #E7E7E7;
     text-align: center;
+    height: 315px;
+    width: 100%;
 }
 
 .social {
