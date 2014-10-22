@@ -13,7 +13,7 @@
 }
 
 body {
-	background-color: rgba(97, 152, 255, 0.2);
+	background-color: rgba(129, 198, 169, 0.6);
 }
 
 .page-header {
@@ -50,27 +50,6 @@ button.btn.btn-default {
 	padding-bottom: 5px;
 }
 
-@font-face {
-    font-family: "Champagne";
-    src: url('Champagne.ttf');
-}
-@font-face {
-    font-family: "Champagne italic";
-    font-style: italic;
-    src: url('Champagne Italic.ttf');
-}
-@font-face {
-    font-family: "Champagne bold";
-    font-weight: bold;
-    src: url('Champagne Bold.ttf');
-}
-
-@font-face {
-	font-family: "Champagne bold italic";
-	font-weight: bold, italic;
-	src: url('Champagne Bold Italic.ttf');
-}
-
 .navbar {
 	box-shadow: 1px 1px 5px #CCCCCC;
     font-family: 'Open Sans', sans-serif;
@@ -92,8 +71,14 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: "Champagne bold";
+	font-family: "ubuntu";
+    color: #24334C;
 }
+
+h1:first-letter {
+    color: #F36132;
+}
+
 .caption {
     background-color: #E7E7E7;
     text-align: center;
@@ -103,30 +88,34 @@ h1, h2, h3, h4, h5, h6 {
     margin-left: 5px;
 }
 
-.contact {
-    background-color: #F8F8F8;
-}
-
 .bouton {
     border: 1px solid;
     border-radius: 4px;
 }
 
 #bouton:hover{
-    border: 1px solid rgba(97, 152, 255, 0.7);
-    color: #FF6600;
+    border: 1px solid #81C6A9;
+    color: #F36132;
 }
 
 .navbar-default .navbar-nav > li > a:hover{
-    color: #FF6600;
+    color: #F36132;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #81C6A9;
 }
 
 #bouton {
-    border: 1px solid #FF6600;
-    color: #428BCA;
+    border: 1px solid #F36132;
+    color: #81C6A9;
 }
 
 #sponsors{
     background-color: white;
     padding-bottom: 40px;
+}
+
+.presse {
+    border: 1px solid #F36132;
 }
