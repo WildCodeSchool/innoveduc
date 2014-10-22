@@ -35,7 +35,7 @@ button.btn.btn-default {
 
 .contact {
 	background-color: #F8F8F8;
-	height: 60px;
+	height: 85px;
 	text-align: center;
 	margin-top: 20px;
 	width: 100%;
@@ -130,4 +130,8 @@ h1:first-letter {
 
 .presentation {
     margin-top: 0;
+}
+
+#mentions{
+    font-size: 80%;
 }
