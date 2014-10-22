@@ -125,9 +125,6 @@ h1:first-letter {
 
 .apm > li > a {
     padding-top: 17px;
-}
-
-.apm > li > a {
     margin: 0 auto;
 }
 
@@ -146,3 +143,9 @@ h1:first-letter {
 .bprojet {
     height: 315px;
 }
+
+.presse .timg {
+    height: 200px;
+    width: 282px;
+}
+
