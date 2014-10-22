@@ -80,7 +80,6 @@ h1:first-letter {
 .caption {
     background-color: #E7E7E7;
     text-align: center;
-    height: 315px;
     width: 100%;
 }
 
@@ -138,4 +137,8 @@ h1:first-letter {
 
 .footer {
     background-color: #F8F8F8;
+}
+
+.bprojet {
+    height: 315px;
 }
