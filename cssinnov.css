@@ -1,5 +1,5 @@
 .navbar-brand {
-	padding: 0px;
+    padding: 0px;
 }
 
 .logo {
@@ -35,7 +35,7 @@ button.btn.btn-default {
 
 .contact {
 	background-color: #F8F8F8;
-	height: 60px;
+	height: 85px;
 	text-align: center;
 	margin-top: 20px;
 	width: 100%;
@@ -120,4 +120,20 @@ h1:first-letter {
 
 .presse {
     border: 1px solid #F36132;
+}
+
+.apm > li > a {
+    padding-top: 17px;
+}
+
+.apm > li > a {
+    margin: 0 auto;
+}
+
+.presentation {
+    margin-top: 0;
+}
+
+#mentions{
+    font-size: 80%;
 }
