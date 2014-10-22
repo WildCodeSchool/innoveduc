@@ -68,7 +68,7 @@ p {
 }
 
 .caption p{
-    text-align: center;
+    text-align: left;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -141,7 +141,7 @@ h1:first-letter {
 }
 
 .bprojet {
-    height: 315px;
+    height: 260px;
 }
 
 .presse .timg {
@@ -149,3 +149,11 @@ h1:first-letter {
     width: 282px;
 }
 
+.logopart .partlogo {
+    height: 100px;
+    width: 170px;
+}
+
+.logopart img {
+    width: 70%;
+}
