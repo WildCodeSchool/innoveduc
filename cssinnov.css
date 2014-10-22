@@ -34,8 +34,6 @@ button.btn.btn-default {
 }
 
 .contact {
-	background-color: #F8F8F8;
-	height: 85px;
 	text-align: center;
 	margin-top: 20px;
 	width: 100%;
@@ -133,5 +131,9 @@ h1:first-letter {
 }
 
 #mentions{
-    font-size: 80%;
+    font-size: 60%;
+}
+
+.footer {
+    background-color: #F8F8F8;
 }
