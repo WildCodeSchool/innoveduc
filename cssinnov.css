@@ -119,3 +119,7 @@ h1:first-letter {
 .presse {
     border: 1px solid #F36132;
 }
+
+.presentation{
+    margin-top: 0;
+}
