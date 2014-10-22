@@ -1,5 +1,5 @@
 .navbar-brand {
-	padding: 0px;
+    padding: 0px;
 }
 
 .logo {
@@ -34,8 +34,6 @@ button.btn.btn-default {
 }
 
 .contact {
-	background-color: #F8F8F8;
-	height: 60px;
 	text-align: center;
 	margin-top: 20px;
 	width: 100%;
@@ -67,7 +65,7 @@ p {
 }
 
 .caption p{
-    text-align: left;
+    text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -83,6 +81,8 @@ h1:first-letter {
 .caption {
     background-color: #E7E7E7;
     text-align: center;
+    height: 315px;
+    width: 100%;
 }
 
 .social {
@@ -120,3 +120,25 @@ h1:first-letter {
 .presse {
     border: 1px solid #F36132;
 }
+
+
+.apm > li > a {
+    padding-top: 17px;
+}
+
+.apm > li > a {
+    margin: 0 auto;
+}
+
+.presentation {
+    margin-top: 0;
+}
+
+#mentions{
+    font-size: 60%;
+}
+
+.footer {
+    background-color: #F8F8F8;
+}
+
