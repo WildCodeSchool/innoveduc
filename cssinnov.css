@@ -7,9 +7,16 @@
 }
 
 .img1 {
- display: block;
- width: 100%;
- margin-top: 52px;
+    display: block; 
+    width: 100%;
+    margin-top: 52px;
+    z-index: -1;
+}
+.frenchtech {
+    position:absolute;
+    z-index: 1;
+    margin-left: -170px; /** décalage = larg img **/
+    margin-top: 1px;
 }
 
 body {
