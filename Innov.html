@@ -191,22 +191,22 @@
             <h1>Nous contacter</h1>
         </header>
             <div class="row">
-                <div class="col-md-offset-4">
+                <div class="col-md-offset-1 col-md-5 formulaire">
                     <form method="post" action="traitement.php">
                        <fieldset>
-                           <label for="nom">Quel est votre nom ?</label></br>
+                           <label for="nom">Prénom:</label>
                            <input type="text" name="nom" id="nom" /></br>
-                           <label for="prenom">Quel est votre prénom ?</label></br>
+                           <label for="prenom">Nom:</label>
                            <input type="text" name="prenom" id="prenom" /></br>
-                           <label for="email">Quel est votre e-mail ?</label></br>
+                           <label for="email">E-mail*:</label>
                            <input type="email" name="email" id="email" /></br>
-                           <label for="entreprise">Quel est le nom de votre entreprise ?</label></br>
+                           <label for="entreprise">Entreprise:</label>
                            <input type="text" name="entreprise" id="entreprise" /></br>
-                           <label for="place">Quel est votre place dans votre entreprise ?</label></br>
+                           <label for="place">Fonction:</label>
                            <input type="place" name="place" id="place" /></br>
-                           <label for="ameliorer">Comment pensez-vous que je puisse améliorer mon site ?</label><br />
-                            <textarea name="ameliorer" id="ameliorer" rows="10" cols="50">
-                            </textarea>
+                </div>
+                <div class="col-md-6 formulaire">
+                           <label for="ameliorer">Votre message*:</label><textarea name="ameliorer" id="ameliorer" rows="6" cols="25"></textarea>
                 </div>
             </div>
         </div>

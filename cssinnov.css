@@ -174,3 +174,15 @@ h1:first-letter {
 .row .journaux img {
     width: 100%;
 }
+
+label {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    display: block;
+    width: 150px;
+    float: left;
+}
+
+input {
+
+}
