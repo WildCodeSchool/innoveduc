@@ -140,7 +140,7 @@ h1:first-letter {
 }
 
 #mentions{
-    font-size: 60%;
+    font-size: 80%;
 }
 
 .footer {
@@ -190,4 +190,13 @@ label {
 
 #projets {
     padding-bottom: 20px;
+}
+
+#champs {
+    font-size: 10px;
+}
+
+#envoyer {
+    border: 1px solid #F36132;
+    color: #81C6A9;
 }
