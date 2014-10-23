@@ -152,8 +152,18 @@ h1:first-letter {
 .logopart .partlogo {
     height: 100px;
     width: 170px;
+    background-color: blue;
 }
 
 .logopart img {
-    width: 70%;
+    width: 80%;
+}
+
+.row .journaux {
+    height: 80px;
+    width: 160px;
+}
+
+.row .journaux img {
+    width: 100%;
 }
