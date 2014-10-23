@@ -175,6 +175,11 @@ h1:first-letter {
     width: 100%;
 }
 
+.row .virgin {
+    height: 80px;
+    width: 160px;
+}
+
 label {
     font-family: 'Open Sans', sans-serif;
     font-weight: normal;
