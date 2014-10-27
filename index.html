@@ -248,18 +248,22 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script type="text/javascript">
-        $(function() {
-            $("#envoyer").click(function() {
-                valid = false
-            if($("#email").val() != ""){
+        $(function()
+        {
+            $("#envoyer").click(function() 
+            {
                 valid = true
-            }
-            if($("#message").val() == ""){
-                valid = false
-            }
-            return valid
+                if($("#email").val() == "" || $("#message").val() == "")
+                {
+                    $("#email").css("border-color","#FF0000");
+                    $("#message").css("border-color","#FF0000");
+                    valid = false;
+                    return valid
+                }
+                else
+                    return valid
+            });
         });
-    });
     </script>
     <script>$('.navbar-collapse .nav > li > a').click(function(){
     $('.collapse.in').removeClass('in').css('height', '0');
